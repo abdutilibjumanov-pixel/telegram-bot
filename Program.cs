@@ -203,4 +203,5 @@ bot.StartReceiving(
     }
 );
 
-Console.ReadLine();
+//Console.ReadLine();
+await Task.Delay(Timeout.Infinite);
